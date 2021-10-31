@@ -7,9 +7,9 @@ client = Twitter::REST::Client.new do |config|
   config.access_token_secret = ENV['ACCESS_SECRET']
 end
 
-HASHTAGS = '#PeaceDay #RobotsForPeace #PeaceHack'.freeze
+HASHTAGS ||= '#PeaceDay #RobotsForPeace #PeaceHack'
 
-TWEETS = [
+TWEETS ||= [
   "You can find peace amidst the storms that threaten you.\nJoseph B. Wirthlin",
   "Share your smile with the world. It\'s a symbol of friendship and peace.\nChristie Brinkley",
   "When the power of love overcomes the love of power the world will know peace.\nJimi Hendrix",
@@ -40,6 +40,6 @@ TWEETS = [
   "Peace brings with it so many positive emotions that it is worth aiming for in all circumstances.\nEstella Eliot",
   "If you don't know the guy on the other side of the world, love him anyway because he's just like you. He has the same dreams, the same hopes and fears. It's one world, pal. We're all neighbors.\nFrank Sinatra",
   "Peace cannot be kept by force. It can only be achieved by understanding.\nAlbert Einstein",
-].freeze
+]
 
 client.update("#{TWEETS.sample}\n#{HASHTAGS}")
