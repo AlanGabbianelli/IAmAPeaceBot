@@ -5,11 +5,11 @@ ruby File.read(".ruby-version").chomp
 
 gem 'rails', '< 6'
 
-gem 'pg', '~> 0.18'
-gem 'puma', '~> 3.7'
-gem 'turbolinks', '~> 5'
+gem 'pg'
+gem 'puma'
+gem 'turbolinks'
 gem 'twitter'
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier'
 
 group :development do
   gem 'listen'
