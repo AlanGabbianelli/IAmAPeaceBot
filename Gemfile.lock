@@ -70,7 +70,6 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     equalizer (0.0.11)
     erubi (1.10.0)
-    execjs (2.8.1)
     ffi (1.15.4)
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
@@ -179,8 +178,6 @@ GEM
       simple_oauth (~> 0.3.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
-    uglifier (4.2.0)
-      execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.8)
@@ -201,7 +198,6 @@ DEPENDENCIES
   rails (< 7)
   turbolinks
   twitter
-  uglifier
 
 RUBY VERSION
    ruby 2.7.4p191

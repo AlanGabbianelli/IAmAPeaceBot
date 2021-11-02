@@ -9,7 +9,6 @@ gem 'pg'
 gem 'puma'
 gem 'turbolinks'
 gem 'twitter'
-gem 'uglifier'
 
 group :development do
   gem 'listen'
