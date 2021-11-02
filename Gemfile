@@ -9,7 +9,3 @@ gem 'pg'
 gem 'puma'
 gem 'turbolinks'
 gem 'twitter'
-
-group :development do
-  gem 'listen'
-end
